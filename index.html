@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safaa | Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <div class="info-content">
+          <h1 class="name" title="SAFAA IDHAMOUCH">SAFAA IDHAMOUCH</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:safaaidhamouch@gmail.com" class="contact-link">safaaidhamouch@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Téléphone</p>
+
+              <a href="tel:+212696929326" class="contact-link">+212 696 929 326</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>CASABLANCA, MAROC</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>à propos</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="à propos">
+
+        <header>
+          <h2 class="h2 article-title">À propos</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Développeuse Web & Logiciel | Passionnée par le backend, frontend et les projets réels
+          </p>
+
+          <p>
+            Passionnée par le développement web et logiciel, je souhaite intégrer une équipe dynamique où 
+            je pourrai mettre en œuvre les compétences acquises lors de ma formation et de mes précédents stages,
+            tout en continuant à apprendre sur des projets concrets.
+          </p>
+
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Ce que je fais</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+          
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Développement Web" width="40">
+              </div>
+          
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Développement Web</h4>
+          
+                <p class="service-item-text">
+                  Création d'applications web dynamiques et responsives en utilisant HTML, CSS, JavaScript, PHP, Flask ou Spring Boot.
+                </p>
+              </div>
+          
+            </li>
+          
+            <li class="service-item">
+          
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-software.svg" alt="Application Desktop" width="40">
+              </div>
+          
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Applications Desktop</h4>
+          
+                <p class="service-item-text">
+                  Développement d'interfaces graphiques avec Python (PyQt5) connectées à des bases de données comme MySQL pour des solutions métiers.
+                </p>
+              </div>
+          
+            </li>
+          
+            <li class="service-item">
+          
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-ai.svg" alt="Data Science" width="40">
+              </div>
+          
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Analyse & IA</h4>
+          
+                <p class="service-item-text">
+                  Mise en œuvre de projets intégrant le traitement automatique du langage naturel (NLP) et des modèles de deep learning (LSTM).
+                </p>
+              </div>
+          
+            </li>
+          
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">FORMATION</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cycle d'ingénieur en génie informatique</h4>
+
+              <span>2023 - présent</span>
+
+              <p class="timeline-text">
+                IGA : Institut supérieur du Génie Appliqué 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Génie Informatique, Diplôme universitaire de Technologie</h4>
+
+              <span>2021 - 2023</span>
+
+              <p class="timeline-text">
+                École Supérieure de Technologie de Casablanca
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Expérience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Stage de Fin d'année</h4>
+
+              <span>Juillet 2024 — Septembre 2024</span>
+
+              <p class="timeline-text">
+                Création d'une plateforme web permettant de prédire les séismes en temps réel grâce à la collecte, l'analyse et la visualisation des données sismiques, avec envoi d'alertes par mail 
+                via l'utilisation de Flask et API Maps JavaScript.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Stage de Fin d'Étude</h4>
+
+              <span>Avril 2023 — Juin 2023</span>
+
+              <p class="timeline-text">
+                Conception d'un outil bureautique en Python utilisant PyQt5 pour l'interface utilisateur et MySQL pour le stockage des données, destiné à la génération de cartes de bruit 
+                géolocalisées à partir de coordonnées GPS.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Mes Compétences</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Langages de programmation</h5>
+                <data value="Langues">HTML - CSS3 - JavaScript - PHP - Java - Python</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Frameworks / Bibliothèques</h5>
+                <data value="Frameworks">Spring Boot - Swing - J2EE - Flask - Tailwind CSS</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications Web</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications Desktop</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>IA</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-select-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications Web</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications Desktop</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>IA</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="applications web">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/assure2.png" alt="Mettre en place un système CRM en intégrant ERP" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mettre en place un système CRM en intégrant ERP</h3>
+
+                <p class="project-category">Une plateforme web intégrée de type CRM/ERP, dédiée à la gestion commerciale et opérationnelle d'un assureur interentreprises en utilisant Spring Boot et Next.js avec MySQL comme SGBD. Cette application centralise les modules essentiels tels que la gestion des prospects, des clients, des contrats, des sinistres, ainsi que 
+                  le suivi des interactions et le renouvellement de contrats.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications web">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sismo.png" alt="Application web de surveillance sismique" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Application web de surveillance sismique</h3>
+
+                <p class="project-category">Création d'une plateforme web permettant de prédire les séismes en temps réel grâce à la collecte, l'analyse et la visualisation des données sismiques, avec envoi 
+                  d'alertes par mail via l'utilisation de Flask et API Maps JavaScript.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications web">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/gestion pharmacie.png" alt="Plateforme web de gestion pharmacie" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Plateforme web de gestion pharmacie</h3>
+
+                <p class="project-category">Application web développée en JSP pour la gestion d'une pharmacie, incluant une authentification sécurisée pour administrateurs et personnel, la gestion des médicaments, les ventes (avec/sans ordonnance), le suivi des stocks et la génération de rapports statistiques.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications desktop">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cartographie.png" alt="Application Desktop pour générer des cartographies du bruit" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Application Desktop pour générer des cartographies du bruit</h3>
+
+                <p class="project-category">Conception d'un outil bureautique en Python utilisant PyQt5 pour l'interface utilisateur et MySQL pour le stockage des données, destiné à la génération de 
+                  cartes de bruit géolocalisées à partir de coordonnées GPS.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="ia">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/compatible cv.png" alt="Compatibilité d'un CV vs un poste" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Compatibilité d'un CV vs un poste</h3>
+
+                <p class="project-category">Conception d'un système intelligent permettant d'évaluer la compatibilité d'un CV avec une 
+                  offre à l'aide d'un modèle de deep learning basé sur LSTM.</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
